@@ -2,9 +2,10 @@ import { Injectable } from "@angular/core";
 
 @Injectable()
 export class OtherLogger {
-  constructor() {}
+    constructor() {
+    }
 
-  log(msg: string) {
-    console.log(`Other Logger: ${msg}`);
-  }
+    log( msg: string ) {
+        console.log( `Other Logger: ${msg}` );
+    }
 }
